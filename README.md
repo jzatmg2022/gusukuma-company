@@ -1,14 +1,34 @@
 # Gusukuma OS
 
-人材派遣管理システム (Haken Management System)
+人材派遣管理システム — Unified Sales CRM + Staff CRM
+
+## Live files
+
+Full app HTML is in Google Drive:
+**StaffCRMg / GusukumaOS.html**
+
+https://drive.google.com/drive/folders/1874cSGErX-qQ-tocDaKH8EZcv2tqlQFT
+
+## Deploy (pick one)
+
+### Option A — Vercel (recommended)
+1. Download `GusukumaOS.html` from Google Drive
+2. Rename to `index.html`
+3. Go to https://vercel.com/new
+4. Drag & drop the file → Deploy
+
+### Option B — Netlify Drop
+1. Download `GusukumaOS.html` from Google Drive  
+2. Go to https://app.netlify.com/drop  
+3. Drop the file → get live URL instantly
+
+### Option C — This GitHub repo
+Replace `index.html` in this repo with the full GusukumaOS.html from Drive, then:
+- Vercel: Import `jzatmg2022/gusukuma-company`
+- Netlify: site already created as `gusukuma-os`
 
 ## Modules
-- **営業 Sales CRM** — 企業開拓・案件管理・パイプライン
-- **スタッフ Staff CRM** — スタッフ管理・待機・配置・スキル
+- **営業 Sales** — Companies, Deals, Pipeline, Activities
+- **スタッフ Staff** — Staff list, Available, Placements, Skills
 
-## Deploy on Vercel
-1. Go to https://vercel.com/new
-2. Import this repository
-3. Deploy (no build config needed)
-
-Live site will be available immediately.
+Mobile + desktop ready.
