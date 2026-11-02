@@ -1,0 +1,10 @@
+{
+  "name": "gusukuma-os",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gusukuma OS - Haken Management System (Sales + Staff CRM)",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  }
+}
